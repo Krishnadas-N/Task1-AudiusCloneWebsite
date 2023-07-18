@@ -26,7 +26,7 @@ header{
     position: fixed;
     
     width: 100%;
-  height: 13%;
+  height: 12%;
  
   margin: 0 auto;
   display: flex;
@@ -46,7 +46,7 @@ header{
 
 .navbar .links{
     display: flex;
-    gap:1.6rem; 
+    gap:1.2rem; 
     margin-left: 60px;
 }
 .navbar .links li:hover{
@@ -57,10 +57,10 @@ header{
 ul li{
     list-style: none;
     display: flex;
-    gap: 1rem;
-    font-size: 22px;
+    gap: 0.5rem;
+    font-size: 15px;
     color: #7E1BCC;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 1px;
     line-height:16px
 }
@@ -75,13 +75,13 @@ ul li:hover{
 }
 .navbar .Audius-center-logo img{
     width :70%;
-    height: 60px;
+    height: 40px;
 }
 
 .button-65 {
     appearance: none;
-    width: 13%;
-    height: 60px;
+    width: 12%;
+   
     
     background-color: #cc0fe0;
     border-radius: 10px;
@@ -93,9 +93,9 @@ ul li:hover{
     cursor: pointer;
     
     font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
-    height: 50px;
+    height: 40px;
     letter-spacing: normal;
     line-height: 1.5;
     outline: none;
@@ -107,14 +107,14 @@ ul li:hover{
     text-decoration: none;
     transform: translate3d(0, 0, 0);
     transition: all .3s;
-    padding-top: 10px;
-    margin-left: -10px;
+    padding-top: 9px;
+    
    
    
   }
   
   .button-65:hover {
-    background-color: #cc0fe0;
+    background-color: #d62fe9;
     box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
     opacity: 1;
     transform: translateY(0);
@@ -202,7 +202,7 @@ header .navbar .left-logo{
 
 }
 .Audius-center-logo{
-width: 20%;
+width: 15%;
 }
 .right-logo{
     width: 20%;
@@ -214,11 +214,11 @@ width: 20%;
 }
 main .container .home-div img{
     width: 100%;
-    height: 120vh;
+    height: 130vh;
     position: relative;
     object-fit: cover;
     z-index: -1;
-  
+    
 
 }
 .home-div1{
@@ -228,24 +228,26 @@ main .container .home-div img{
 }
 .home-div-left{
     position: relative;
-  width: 62%;
+  width: 63%;
   height: 80%;
-  margin-top: 40px;
+    top:20%;
   left: 50%;
   transform: translate(-69%, -150%);
+  margin-top: 150px;
   
   
 }
 .home-div-left h1{
     font-weight: 900;
     color: #ffff;
-    font-size: 135px;
+    font-size: 100px;
     line-height:120px;
+    
    
     font-family: "Avenir Next LT Pro", Condensed;
    
     text-decoration: none solid rgb(255, 255, 255);
-    letter-spacing: 2.5px;
+    letter-spacing: 2.2px;
     text-align: start;
     vertical-align: baseline;
     text-shadow:  2px #000000;
@@ -257,7 +259,7 @@ main .container .home-div img{
     
     position: relative;
     top: 20%;
-    left: 50%;
+    left: 45%;
     transform: translate(-180%, -73%);
    
    
@@ -293,14 +295,14 @@ main .container .home-div img{
     font-size: 28px;
     color: rgb(255, 255, 255);
     margin-top: 30px;
-    margin-bottom: 100px;
+
 }
 .home-div-left .btn-download{
     display: flex;
     width: 60%;
     align-items: center;
     justify-content: space-between;
-    margin-top: -70px;
+    margin-top: -60px;
     margin-left: -5px;
 }
 .home-div-left .btn-download .sign-up-btn{
@@ -314,16 +316,16 @@ main .container .home-div img{
     cursor: pointer;
     
     font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
-    font-size: 23px;
+    font-size: 18px;
     font-weight: 700;
-    height: 60px;
+    height: 50px;
     letter-spacing: normal;
     line-height: 1.5;
     outline: none;
    
     align-items: center;
     width: 50%;
-    padding: 12px;
+    padding: 11px;
     padding-left: 60px;
    
     text-decoration: none;
@@ -346,20 +348,20 @@ box-shadow: none;
 cursor: pointer;
 font-family: "Avenir Next LT Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
    
-font-size: 23px;
+font-size: 18px;
 font-weight: 700;
-height: 60px;
-width: 50%;
+height: 50px;
+width: 55%;
 letter-spacing: normal;
 line-height: 1.5;
 outline: none;
 color: #7E1BCC;
-padding: 13px;
+
 margin-left: 30px;
 text-decoration: none;
-padding: 13px;
-padding-left: 60px;
-padding-top: 20px;
+padding: 8px;
+    padding-left: 23px;
+padding-top: 15px;
     display: flex;
     transition: filter 0.3s ease-in-out;
     -webkit-transform: scaleX(1); 
@@ -389,13 +391,14 @@ padding-top: 20px;
     
     display: flex;
     flex-direction: column;
+ 
 }
 .scnd-scrn-div .lap-imog {
     width: 100%;
     height: 650px;
     align-items: center;
     justify-content: center;
-    margin-top:-650px ;
+    margin-top:-550px ;
     padding-left: 170px;
 }
 .scnd-scrn-div .lap-imog img{
@@ -620,7 +623,7 @@ border-radius: 50%;
   
     margin: auto;
     margin-top: 50px;
-    width:80%;
+    width:84%;
     height: 100%;
    
     display: flex;
@@ -629,7 +632,7 @@ border-radius: 50%;
 }
 .grid-colon-1{
     width: 50%;
-    height: 80%;
+    height: 94%;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
@@ -645,7 +648,7 @@ border-radius: 50%;
 }
 .row{
     width: 100%;
-    height: 25%;
+    height: 29%;
     background: #ffffff;
     display: flex;
     gap: 2rem;
@@ -667,14 +670,15 @@ border-radius: 50%;
     width: 15%;
 }
 .row .icon-area i{
-   padding: 50px;
-   padding-top: 70px;
+   padding: 38px;
+   padding-top: 50px;
+   
 }
 .icon-right-sec .head{
   color: #ffffff;
   background-color: #7E1BCC;
   font-family:"Avenir Next LT Pro", "Helvetica Neue", Helvetica, Arial, sans-serif ;  
-  font-size: 17px;
+  font-size: 13px;
   line-height: 13px;
   vertical-align: baseline;
   letter-spacing: 1px;
@@ -686,15 +690,16 @@ border-radius: 50%;
   width: 50%;
   margin: 20px;
   height: 20%;
-  padding-top: 10PX;
+  padding-top: 6px;
+ 
 
 }
 .icon-right-sec .desccription{
     color: rgb(133,129,153);
     font-family:"Avenir Next LT Pro", "Helvetica Neue", Helvetica, Arial, sans-serif ;
-    font-size: 18px;
+    font-size: 14px;
     vertical-align: baseline;
-    font-weight: 500;
+    font-weight: 400;
     text-decoration: none solid rgb(133,129,153);
      text-align: start; 
 }
@@ -765,8 +770,8 @@ border-radius: 8px;
 background: transparent;
 text-align: center;
 
-width: 400px;
-height: 400px;
+width: 300px;
+height: 300px;
 
 
 }
@@ -779,7 +784,7 @@ height: 400px;
 .fifth-scrn-div .image-grid .box h6{
     color:#858199;
     font-family: "Avenir Next LT Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 23px;
+    font-size: 20px;
     line-height: 26px;
     vertical-align: baseline;
     font-weight: 600;
@@ -798,7 +803,7 @@ height: 400px;
 .sixth-scrn-div{
     width: 99.8%;
     height: 80vh;
-    margin-top: 300px;
+    margin-top: 200px;
 
 }
 .sixth-scrn-div img{
@@ -863,7 +868,7 @@ height: 400px;
     width: 50%;
     height: 118%;
     margin-left: 200px; 
-    margin-top: -74px; 
+    margin-top: -55px; 
   
 }
 .eigth-scrn-div .left-scrn .sign-up-btn{
@@ -878,8 +883,8 @@ height: 400px;
     color: #7E1BCC;
     cursor: pointer;
 
-    width:23%;
-    height: 30%;
+    width:28%;
+    height: 44%;
     
     font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
     align-items: center; 
@@ -946,17 +951,17 @@ footer .logo-btn-sec .sign-up-btn {
     cursor: pointer;
     
     font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
-    font-size: 21px;
+    font-size: 19px;
     font-weight: 700;
-    height: 60px;
+    height: 50px;
     letter-spacing: normal;
     line-height: 1.5;
     outline: none;
    
     align-items: end;
-    width: 16%;
-    padding: 12px;
-    padding-left: 50px;
+    width: 18%;
+    padding: 10px;
+    padding-left: 30px;
    
     text-decoration: none;
     transform: translate3d(0, 0, 0);
@@ -1005,7 +1010,7 @@ footer .foooter-details .lft-sec .rows a,footer .foooter-details .miid-sec p,foo
   Helvetica
   Arial
   sans-serif ;
-  font-size: 23px;
+  font-size: 18px;
   line-height: 24px;
   vertical-align: baseline;
   font-weight: 500;
